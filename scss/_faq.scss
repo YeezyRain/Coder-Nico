@@ -1,0 +1,17 @@
+ul{
+    list-style: none;
+    padding: auto;
+    margin: 60px 0;
+    li{
+         display: inline-block;
+         text: {
+         direction: none;
+         transform: uppercase;
+         padding: center; 
+         }
+         font: {
+          family: sans-serif;
+          size: 20px;
+         }
+       } 
+  }
