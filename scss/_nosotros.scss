@@ -5,15 +5,14 @@
     justify-content: stretch;
     width: 50%;
     margin: 0 auto;
-    border: 1px solid black;
-    font-size: medium;
-    @include FontStyle();
+    font-size: small;
+    @include FontStyle;
   }
   .caja{
-    padding: 10px;
+    padding: 0px;
     border: 5px solid black;
-    background-color: white;
+    background-color: rgb(31, 25, 25);
     margin: 15px;
     text-align: center;
-    line-height: 80px;
+    line-height: 20px;
   }
