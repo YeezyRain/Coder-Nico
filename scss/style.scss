@@ -3,7 +3,8 @@
   --color-secundario: rgb(72, 248, 116);
 }
 @import "mixin";
-@import "media"; 
+@import "media";
+@import "nav"; 
 @import "faq";
 @import "nosotros";
 html {
@@ -12,6 +13,7 @@ html {
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 body {
@@ -137,4 +139,7 @@ h5 {
 }
 .Copyright {
   color: var(--color-secundario);
+}
+header {
+  text-align: left;
 }
